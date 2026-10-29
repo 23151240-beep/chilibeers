@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090909"><title>ChiliBeers | Pequeñas gomitas, gran antojo</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<header><a class="brand" href="#inicio">CHILI<span>BEERS</span></a><button id="menu">☰</button>
+<nav><a href="#sabores">Sabores</a><a href="#diferencia">¿Por qué ChiliBeers?</a><a href="#mayoreo">Mayoreo</a><a href="#contacto">Contacto</a></nav></header>
+<main>
+<section class="hero" id="inicio"><div class="copy"><p class="tag">GOMITAS ENCHILADAS 🌶️🐻</p>
+<h1>PEQUEÑAS<br>GOMITAS.<br><em>GRAN ANTOJO.</em></h1>
+<p>Dulce, ácido y picosito en una propuesta con personalidad propia.</p>
+<div class="actions"><a class="btn" href="#sabores">QUIERO PROBARLAS</a><a class="btn outline" href="#mayoreo">VENTA AL MAYOREO</a></div></div>
+<img src="images/hero.png" alt="Gomitas enchiladas ChiliBeers"></section>
+<div class="stripe">DULCE ✦ ÁCIDO ✦ PICOSITO ✦ CHILIBEERS ✦ DULCE ✦ ÁCIDO ✦ PICOSITO</div>
+
+<section class="section" id="diferencia"><p class="tag">EL SABOR CHILIBEERS</p><h2>NO SON LAS TÍPICAS PICOSITAS.</h2>
+<p class="intro">ChiliBeers busca convertir una gomita de osito en un antojo diferente, combinando notas dulces, ácidas y picositas.</p>
+<div class="features"><article><b>01</b><h3>DULCE</h3><p>El inicio que te atrapa.</p></article>
+<article><b>02</b><h3>ÁCIDO</h3><p>El toque que despierta el sabor.</p></article>
+<article><b>03</b><h3>PICOSITO</h3><p>El final con personalidad ChiliBeers.</p></article></div></section>
+
+<section class="section dark" id="sabores"><p class="tag">ELIGE TU ANTOJO</p><h2>NUESTROS SABORES</h2>
+<div class="cards">
+<article><div>🥭</div><h3>MANGO</h3><p>Dulce + ácido + picosito.</p><button onclick="interest('Mango')">ME INTERESA</button></article>
+<article><div>🍉</div><h3>SANDÍA</h3><p>Frutal + fresco + chile.</p><button onclick="interest('Sandía')">ME INTERESA</button></article>
+<article><div>🍓</div><h3>FRESA</h3><p>Dulce + frutal + picante.</p><button onclick="interest('Fresa')">ME INTERESA</button></article>
+<article><div>🌶️</div><h3>TAMARINDO</h3><p>Ácido + intenso + picosito.</p><button onclick="interest('Tamarindo')">ME INTERESA</button></article></div>
+<small>*Cambia sabores, presentaciones y precios por los definitivos antes de vender.</small></section>
+
+<section class="impact"><p>UNA GOMITA.</p><h2>TRES SENSACIONES.</h2><strong>🔥</strong></section>
+
+<section class="section wholesale" id="mayoreo"><div><p class="tag">PARA NEGOCIOS</p><h2>¿QUIERES VENDER CHILIBEERS?</h2>
+<p>Solicita información para tiendas, dulcerías, eventos o reventa. El formulario abre tu correo y no guarda información en un servidor.</p></div>
+<form id="form"><label>Nombre<input id="name" required></label><label>Negocio<input id="business"></label>
+<label>Ciudad<input id="city" required></label><label>Cantidad aproximada<input id="qty" placeholder="Ej. 50 bolsas"></label>
+<label class="wide">Mensaje<textarea id="msg" rows="4"></textarea></label><button class="btn wide" type="submit">SOLICITAR COTIZACIÓN</button></form></section>
+
+<section class="section social"><p class="tag">CHILIBEERS EN REDES</p><h2>ÚNETE AL ANTOJO.</h2>
+<div class="gallery"><img src="images/logo.png"><img src="images/hero.png"><img src="images/halloween.png"></div>
+<a class="btn outline" href="#" id="ig">INSTAGRAM DE CHILIBEERS</a></section>
+</main>
+<footer id="contacto"><div class="brand huge">CHILI<span>BEERS</span></div><p>Pequeñas gomitas. Gran antojo.</p><small>© <span id="year"></span> ChiliBeers · Proyecto de marca</small></footer>
+<script src="script.js"></script></body></html>
